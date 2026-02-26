@@ -21,7 +21,7 @@ tags = {
 resource "aws_security_group" "example" {
 name = "first-sg"
 description = "Security group for example application"
-vpc_id = "vpc-0731d32ac0d5bdf6b"
+vpc_id = "vpc-0f086b12433c3405e"
  
 # Ingress Rules (Inbound Traffic)
 ingress {
